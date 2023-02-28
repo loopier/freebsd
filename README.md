@@ -1,4 +1,4 @@
-s# How to FreeBSD
+# How to FreeBSD
 
 ## Wifi
 
