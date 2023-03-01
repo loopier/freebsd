@@ -72,3 +72,7 @@ Any will do. `openbox` is easy to start but needs some configuration to do basic
 ## StartX
 
 	$ startx 
+
+# Wacom
+
+See [Wacom Tablet - FreeBSD Wiki](https://wiki.freebsd.org/WacomTablet)
