@@ -1,6 +1,6 @@
 # How to FreeBSD
 
-## Wifi
+# Wifi
 
 [Wireless Networking - Quick Start](https://docs.freebsd.org/en/books/handbook/advanced-networking/#network-wireless-quick-start)
 
@@ -39,7 +39,21 @@ Restart the computer, or restart the network service to connect to the network:
 
     service netif restart
 
-# Window Manager
+# Audio
+Follow instructions from [Chapter 8 in the FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/multimedia/#sound-setup)
+
+Then setup up JACK to use the device shown in `cat /dev/snd_stat`.
+
+To start it by hand use:
+```
+jackd -r -d oss -r 48000 -C /dev/dsp -P /dev/dsp
+```
+
+See [this forum thread](https://forums.FreeBSD.org/threads/help-setting-up-oss-virtual_oss-and-jack.87018/post-599496).
+
+More info in [these notes](https://github.com/0EVSG/freebsd_jack_notes).
+
+# Windows Manager
 
 ## Install X
 Follow instructions in [Installing Xorg](https://docs.freebsd.org/en/books/handbook/x11/#x-install)
