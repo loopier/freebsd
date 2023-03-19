@@ -51,7 +51,7 @@ jackd -r -d oss -r 48000 -C /dev/dsp -P /dev/dsp
 
 See [this forum thread](https://forums.FreeBSD.org/threads/help-setting-up-oss-virtual_oss-and-jack.87018/post-599496).
 
-More info in [these notes](https://github.com/0EVSG/freebsd_jack_notes).
+For more info and a thorough explanation see [these notes](https://github.com/0EVSG/freebsd_jack_notes).
 
 # Windows Manager
 
