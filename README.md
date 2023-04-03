@@ -49,6 +49,12 @@ To start it by hand use:
 jackd -r -d oss -r 48000 -C /dev/dsp -P /dev/dsp
 ```
 
+From now on this should be saved in `.config/jack/conf.xml`.
+To send JACK's output through OSS, change JACK's driver with:
+```
+jack_control ds oss
+```
+
 See [this forum thread](https://forums.FreeBSD.org/threads/help-setting-up-oss-virtual_oss-and-jack.87018/post-599496).
 
 For more info and a thorough explanation see [these notes](https://github.com/0EVSG/freebsd_jack_notes).
